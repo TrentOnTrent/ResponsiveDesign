@@ -1,0 +1,9 @@
+/* Default styles for small screens */
+body{
+    background-color: rgb(11, 214, 11);
+}
+@media screen and (width > 600px) {
+    body {
+        background-color: blueviolet;
+    }
+}
