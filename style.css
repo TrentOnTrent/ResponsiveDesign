@@ -3,12 +3,22 @@ body{
     background-color: rgb(11, 214, 11);
     font-family:'Courier New', Courier, monospace;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (width > 600px) {
     body {
         background-color: blueviolet;
+    }
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
     }  
   /* Clear floats after the columns */
-    .column {
+/* .column {
         float: left;
         width: 33.33%;
     }
@@ -17,4 +27,5 @@ body{
         display: table;
         clear: both;
     }  
+*/
 }
